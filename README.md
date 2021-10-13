@@ -23,7 +23,7 @@
 ### 自由组织模式（自主研发）
 - Iframe + postMessage
 - Systemjs模块化解决方案
-- 华为devCloud
+- 华为devCloud  
 不提供统一的基座，通过机制和规范，让用户只感知到一个产品；
 多个SPA组成的MPA, 每个菜单就是一个SPA，Header 菜单就是一个工程化的APP，提供公共能力，维护每个SPA的生命周期。
 
