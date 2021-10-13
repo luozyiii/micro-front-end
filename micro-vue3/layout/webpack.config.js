@@ -55,9 +55,9 @@ module.exports = {
         }),
         new ModuleFederationPlugin({
             name: 'layout',
-            filename: 'remoteEntry.js',
+            filename: 'micro-layout.js',
             remotes: {
-                home: 'home@http://localhost:3002/remoteEntry.js'
+                home: 'home@http://localhost:9004/micro-home.js'
             },
             exposes: {}
         }),

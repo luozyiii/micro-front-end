@@ -55,7 +55,7 @@ module.exports = {
         }),
         new ModuleFederationPlugin({
             name: 'home',
-            filename: 'remoteEntry.js',
+            filename: 'micro-home.js',
             remotes: {},
             exposes: {
                 "./Content": "./src/components/Content",

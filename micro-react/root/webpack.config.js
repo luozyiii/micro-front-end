@@ -42,7 +42,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'roots',
       remotes: {
-        microUser: 'microUser@http://localhost:3001/micro-user.js'
+        microUser: 'microUser@http://localhost:9001/micro-user.js'
       }
     })
   ],
