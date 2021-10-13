@@ -7,9 +7,10 @@ const Goods = React.lazy(()=>import('microUser/goods'))
 const App = () =>{
   return (
     <div>
-      <h3>Webpack 5 联邦模块 + React17的微前端实践</h3>
+      <h1>Webpack 5 联邦模块 + React17 的微前端实践</h1>
       <User/>
       <div style={{border: '1px solid #ccc', marginTop: '24px', padding: '12px'}}>
+        <h3>来自其它微应用</h3>
         <React.Suspense fallback="loading app">
           <User2 />
           <Goods />

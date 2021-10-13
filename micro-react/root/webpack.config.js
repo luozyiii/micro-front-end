@@ -1,7 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const Mfp = require('webpack').container.ModuleFederationPlugin
+// 模块联邦
+const { ModuleFederationPlugin } = require('webpack').container
 
 module.exports = {
   // mode 工作模式
@@ -38,10 +39,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
-    new Mfp({
+    new ModuleFederationPlugin({
       name: 'roots',
       remotes: {
-        microUser: 'study@http://localhost:3001/micro-user.js'
+        microUser: 'microUser@http://localhost:3001/micro-user.js'
       }
     })
   ],

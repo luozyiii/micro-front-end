@@ -3,7 +3,7 @@ import React from 'react';
 const Goods = () =>{
   return (
     <div>
-      这是来自微应用(Goods)
+      Goods 组件
     </div>
   )
 }

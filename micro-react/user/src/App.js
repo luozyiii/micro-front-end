@@ -4,7 +4,7 @@ import User from './User'
 const App = () =>{
   return (
     <div>
-      <h3>webpack 5</h3>
+      <h3>User 微应用</h3>
       <User/>
     </div>
   )

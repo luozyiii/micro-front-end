@@ -1,6 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const Mfp = require('webpack').container.ModuleFederationPlugin
+const { ModuleFederationPlugin } = require('webpack').container
 
 module.exports = {
   // mode 工作模式
@@ -37,11 +37,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
-    new Mfp({
+    new ModuleFederationPlugin({
       // 对外提供打包后的文件名，导入时会使用
       filename: 'micro-user.js',
       // 微应用的名字，类似single-spa 的组织名
-      name: 'study',
+      name: 'microUser',
       // 具体导出
       exposes: {
         // 名字：具体某个组件

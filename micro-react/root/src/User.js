@@ -3,7 +3,7 @@ import React from 'react';
 const User = () =>{
   return (
     <div>
-      当前应用（User）
+      User 当前应用组件
     </div>
   )
 }
