@@ -28,9 +28,9 @@
 多个SPA组成的MPA, 每个菜单就是一个SPA，Header 菜单就是一个工程化的APP，提供公共能力，维护每个SPA的生命周期。
 
 ### 基座模式
-- Single-spa(https://zh-hans.single-spa.js.org/docs/getting-started-overview) 微前端框架
+- [Single-spa](https://zh-hans.single-spa.js.org/docs/getting-started-overview) 微前端框架
 
-- 阿里的 [qiankun](https://qiankun.umijs.org/zh/guide)
+- 阿里的 [qiankun](https://qiankun.umijs.org/zh/guide)  
 qiankun 是一个基于 single-spa 的微前端实现库
 
 ### 去中心模式 (没有固定的基座，所有的微应用都可以相互引用；也可以选择某个应用作为中心)
