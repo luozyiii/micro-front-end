@@ -69,7 +69,7 @@ module.exports = {
     ],
     devServer: {
         compress: true,
-        port: 3002,
+        port: 9004,
         hot: true,
         headers: {
             "Access-Control-Allow-Origin": "*",

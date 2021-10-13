@@ -52,7 +52,7 @@ module.exports = {
   ],
   // 服务器
   devServer: {
-    port: 3001,
+    port: 9001,
     open: true
   }
 }

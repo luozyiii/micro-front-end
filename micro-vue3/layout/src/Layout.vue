@@ -1,6 +1,6 @@
 <template>
   <div class="layout-app">
-    <h1 class="title">Webpack 5 联邦模块 + Vue3的微前端实践</h1>
+    <h1 class="title">Webpack 5 联邦模块 + Vue3 的微前端实践</h1>
     <div class="micro-app">
       <h3>来自其它微应用</h3>
       <content-element />

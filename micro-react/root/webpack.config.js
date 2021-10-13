@@ -48,7 +48,7 @@ module.exports = {
   ],
   // 服务器
   devServer: {
-    port: 3000,
+    port: 9000,
     open: true
   }
 }
